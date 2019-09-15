@@ -1,0 +1,32 @@
+<p><b>Similarity Form</b> <small>This operation may take a long time (5-6 min)</small></p>
+<form action="/olap/similarity" method="post" name="payload">
+    <div class="form-group row">
+        <label for="page1" class="col-sm-2 col-form-label">First page ID</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="page1" name="page1" placeholder="First page ID">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="page2" class="col-sm-2 col-form-label">Second page ID</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="page2" name="page2" placeholder="Second Page ID">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="from" class="col-sm-2 col-form-label">Timestamp "From"</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="from" name="from" placeholder="From">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="to" class="col-sm-2 col-form-label">Timestamp "To"</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="to" name="to" placeholder="To">
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Similarity</button>
+        </div>
+    </div>
+</form>
